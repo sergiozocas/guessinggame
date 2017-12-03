@@ -1,9 +1,9 @@
 readme.txt:
-	echo "Guessing Game Project. Unix Workbench course peer grade assignment." > readme.txt
-	echo "Created on:" >> readme.txt 
-	date >> readme.txt
-	echo "Number of lines: " >> readme.txt
-	cat guessinggame.sh | wc -l >> readme.txt
+	echo "Guessing Game Project. Unix Workbench course peer grade assignment." > README.md
+	echo "Created on:" >> README.md 
+	date >> README.md
+	echo "Number of lines: " >> README.md
+	cat guessinggame.sh | wc -l >> README.md
 
 clean:
-	rm readme.txt
+	rm README.md
